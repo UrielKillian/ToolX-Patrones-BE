@@ -9,6 +9,13 @@ import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
+/*
+user, username, email, password, subscription, description, phone, registrationDate, notification, facebook_link,
+instagram, twitter, imageUrl, direction.
+
+Registration Date, lastUpdate -> AuditModel
+ */
+
 @Entity
 @Table(name = "users")
 @Data
