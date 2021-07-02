@@ -9,10 +9,9 @@ import org.hibernate.annotations.OnDeleteAction;
 import javax.persistence.*;
 
 @Entity
-@Table (name = "jobs")
+@Table(name = "jobs")
 @Data
 public class Job extends AuditModel {
-
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

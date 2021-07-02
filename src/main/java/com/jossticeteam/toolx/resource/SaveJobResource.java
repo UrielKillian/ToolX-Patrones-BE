@@ -4,7 +4,6 @@ import com.sun.istack.NotNull;
 
 public class SaveJobResource {
 
-
     @NotNull
     private String title;
     @NotNull

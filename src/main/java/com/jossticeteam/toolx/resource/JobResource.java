@@ -1,16 +1,13 @@
 package com.jossticeteam.toolx.resource;
 
 import com.jossticeteam.toolx.domain.model.AuditModel;
-import com.sun.istack.NotNull;
 
 public class JobResource extends AuditModel {
-
 
     private Long id;
     private String title;
     private String description;
     private Double payment;
-
 
     public Long getId() {
         return id;
